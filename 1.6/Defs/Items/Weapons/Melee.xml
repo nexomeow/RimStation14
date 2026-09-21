@@ -37,9 +37,6 @@
     <thingSetMakerTags>
       <li>RewardStandardMidFreq</li>
     </thingSetMakerTags>
-    <recipeUsers>
-      <li>RS_SyndicateFabricationBench</li>
-    </recipeUsers>
     <equippedStatOffsets>
       <MoveSpeed>0.1</MoveSpeed>
     </equippedStatOffsets>
@@ -69,6 +66,11 @@
       <drawSize>(1.2, 1.2)</drawSize>
     </graphicData>
     <recipeMaker>
+      <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
+      <researchPrerequisite>RS_NukiesWeapons</researchPrerequisite>
+      <recipeUsers Inherit="False">
+        <li>RS_SyndicateFabricationBench</li>
+      </recipeUsers>
       <researchPrerequisite>RS_EnergyWeapons</researchPrerequisite>
       <skillRequirements>
         <Crafting>10</Crafting>
@@ -143,6 +145,11 @@
       <drawSize>(2, 2)</drawSize> 
     </graphicData>
     <recipeMaker>
+      <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
+      <researchPrerequisite>RS_NukiesWeapons</researchPrerequisite>
+      <recipeUsers Inherit="False">
+        <li>RS_SyndicateFabricationBench</li>
+      </recipeUsers>
       <researchPrerequisite>RS_EnergyWeapons</researchPrerequisite>
       <skillRequirements>
         <Crafting>12</Crafting>
@@ -211,6 +218,11 @@
       <drawSize>(1.2, 1.2)</drawSize>
     </graphicData>
     <recipeMaker>
+      <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
+      <researchPrerequisite>RS_NukiesWeapons</researchPrerequisite>
+      <recipeUsers Inherit="False">
+        <li>RS_SyndicateFabricationBench</li>
+      </recipeUsers>
       <researchPrerequisite>RS_NukiesWeapons</researchPrerequisite>
       <skillRequirements>
         <Crafting>10</Crafting>

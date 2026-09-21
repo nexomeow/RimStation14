@@ -8,7 +8,7 @@
     <tab>RS_Syndicate</tab> 
     <baseCost>3300</baseCost>
     <techLevel>Spacer</techLevel>
-    <researchViewX>5</researchViewX>
+    <researchViewX>5.5</researchViewX>
     <researchViewY>4</researchViewY>
     <prerequisites>
       <li>RS_NukiesWeapons</li>
