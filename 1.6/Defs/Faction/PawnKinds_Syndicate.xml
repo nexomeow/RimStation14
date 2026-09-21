@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <PawnKindDef Name="RS_SyndecateFighterBase" Abstract="True">
+    <race>Human</race>
+    <defaultFactionDef>RS_SyndicateFaction</defaultFactionDef>
+    <maxGenerationAge>45</maxGenerationAge>
+    <backstoryCryptosleepCommonality>0.08</backstoryCryptosleepCommonality>
+    <backstoryFiltersOverride>
+      <li>
+        <categories>
+          <li>RS_SyndiecateFighter</li>
+        </categories>
+      </li>
+    </backstoryFiltersOverride>
+    <styleItemTags>
+      <li>
+        <tag>Soldier</tag>
+        <baseWeight>1</baseWeight>
+        <weightFactor>1</weightFactor>
+      </li>
+    </styleItemTags>
+    <initialWillRange>100~100</initialWillRange>
+    <initialResistanceRange>100~100</initialResistanceRange>
+    <chemicalAddictionChance>0</chemicalAddictionChance>
+    <combatEnhancingDrugsChance>0.2</combatEnhancingDrugsChance>
+    <combatEnhancingDrugsCount>0~2</combatEnhancingDrugsCount>
+    <nameMaker>RS_SyndicateOperativeNameMaker</nameMaker>
+    <nameMakerFemale>RS_SyndicateOperativeNameMaker</nameMakerFemale>
+    <invNutrition>2.55</invNutrition>
+    <itemQuality>Normal</itemQuality>
+    <weaponMoney>3000~4500</weaponMoney>
+    <apparelAllowHeadgearChance>0.5</apparelAllowHeadgearChance>
+    <apparelMoney>5000~6500</apparelMoney>
+    <apparelTags>
+      <li>RS_SyndicateGear</li>
+    </apparelTags>
+    <apparelRequired>
+      <li>Apparel_CollarShirt</li>
+      <li>Apparel_Pants</li>
+    </apparelRequired>
+    <apparelDisallowTags>
+      <li>Western</li>
+    </apparelDisallowTags>
+    <specificApparelRequirements>
+      <li>
+        <bodyPartGroup>Torso</bodyPartGroup>
+        <apparelLayer>OnSkin</apparelLayer>
+        <stuff>DevilstrandCloth</stuff>
+      </li>
+      <li>
+        <bodyPartGroup>Legs</bodyPartGroup>
+        <apparelLayer>OnSkin</apparelLayer>
+        <stuff>DevilstrandCloth</stuff>
+      </li>
+    </specificApparelRequirements>
+    <techHediffsChance>0.3</techHediffsChance>
+    <techHediffsMoney>2000~2500</techHediffsMoney>
+    <techHediffsRequired>
+      <li>DeathAcidifier</li>
+    </techHediffsRequired>
+    <biocodeWeaponChance>1</biocodeWeaponChance>
+    <disallowedTraits>
+      <li>Delicate</li>
+      <li>Wimp</li>
+      <li>Brawler</li>
+      <li>BodyPurist</li>
+    </disallowedTraits>
+  </PawnKindDef>
+
+  <PawnKindDef ParentName="RS_SyndecateFighterBase">
+    <defName>RS_Syndicate_Fighter_NukeOperative_Melee</defName>
+    <label>nuke operative</label>
+    <canBeSapper>true</canBeSapper>
+    <isGoodBreacher>false</isGoodBreacher>
+    <combatPower>300</combatPower>
+    <weaponTags>
+      <li>RS_SyndicateWeaponMelee</li>
+    </weaponTags>
+    <apparelMoney>6000~9000</apparelMoney>
+    <apparelRequired>
+      <li>Apparel_Blood-RedHelmet</li>
+      <li>Apparel_Blood-RedHardsuit</li>
+    </apparelRequired>
+    <skills>
+      <li>
+        <skill>Shooting</skill>
+        <range>8~12</range>
+      </li>
+      <li>
+        <skill>Melee</skill>
+        <range>8~12</range>
+      </li>
+      <li>
+        <skill>Medicine</skill>
+        <range>5~8</range>
+      </li>
+    </skills>
+    <xenotypeSet>
+      <xenotypeChances>
+        <Neanderthal MayRequire="Ludeon.RimWorld.Biotech">0.2</Neanderthal>
+        <Hussar MayRequire="Ludeon.RimWorld.Biotech">0.2</Hussar>
+      </xenotypeChances>
+    </xenotypeSet>
+  </PawnKindDef>
+
+  <PawnKindDef ParentName="RS_SyndecateFighterBase">
+    <defName>RS_Syndicate_Fighter_NukeOperative_Range</defName>
+    <label>nuke operative</label>
+    <canBeSapper>true</canBeSapper>
+    <isGoodBreacher>false</isGoodBreacher>
+    <combatPower>200</combatPower>
+    <weaponTags>
+      <li>RS_SyndicateWeaponRange</li>
+    </weaponTags>
+    <apparelMoney>6000~9000</apparelMoney>
+    <apparelRequired>
+      <li>Apparel_Blood-RedHelmet</li>
+      <li>Apparel_Blood-RedHardsuit</li>
+    </apparelRequired>
+    <skills>
+      <li>
+        <skill>Shooting</skill>
+        <range>8~12</range>
+      </li>
+      <li>
+        <skill>Melee</skill>
+        <range>8~12</range>
+      </li>
+      <li>
+        <skill>Medicine</skill>
+        <range>5~8</range>
+      </li>
+    </skills>
+    <xenotypeSet>
+      <xenotypeChances>
+        <Neanderthal MayRequire="Ludeon.RimWorld.Biotech">0.2</Neanderthal>
+        <Hussar MayRequire="Ludeon.RimWorld.Biotech">0.2</Hussar>
+      </xenotypeChances>
+    </xenotypeSet>
+  </PawnKindDef>
+
+  <PawnKindDef ParentName="RS_SyndecateFighterBase">
+    <defName>RS_Syndicate_Fighter_NukeMedic</defName>
+    <label>nuke operative medic</label>
+    <canBeSapper>false</canBeSapper>
+    <isGoodBreacher>false</isGoodBreacher>
+    <combatPower>200</combatPower>
+    <weaponTags>
+      <li>RS_SyndicateWeaponRange</li>
+    </weaponTags>
+    <apparelMoney>6000~9000</apparelMoney>
+    <apparelRequired>
+      <li>Apparel_SyndicateMedicHelmet</li>
+      <li>Apparel_SyndicateMedicHardsuit</li>
+    </apparelRequired>
+    <skills>
+      <li>
+        <skill>Shooting</skill>
+        <range>4~6</range>
+      </li>
+      <li>
+        <skill>Melee</skill>
+        <range>4~6</range>
+      </li>
+      <li>
+        <skill>Medicine</skill>
+        <range>14~18</range>
+      </li>
+    </skills>
+    <xenotypeSet>
+      <xenotypeChances>
+        <Neanderthal MayRequire="Ludeon.RimWorld.Biotech">0.2</Neanderthal>
+        <Hussar MayRequire="Ludeon.RimWorld.Biotech">0.2</Hussar>
+      </xenotypeChances>
+    </xenotypeSet>
+  </PawnKindDef>
+
+  <PawnKindDef ParentName="RS_SyndecateFighterBase">
+    <defName>RS_Syndicate_Fighter_NukeElite</defName>
+    <label>nuke operative commander</label>
+    <canBeSapper>false</canBeSapper>
+    <isGoodBreacher>false</isGoodBreacher>
+    <combatPower>400</combatPower>
+    <nameMaker>RS_SyndicateCommanderNameMaker</nameMaker>
+    <nameMakerFemale>RS_SyndicateCommanderNameMaker</nameMakerFemale>
+    <weaponTags>
+      <li>RS_SyndicateWeaponRangeCommander</li>
+    </weaponTags>
+    <apparelMoney>8000~11000</apparelMoney>
+    <apparelRequired>
+      <li>Apparel_SyndicateEliteHelmet</li>
+      <li>Apparel_SyndicateEliteHardsuit</li>
+    </apparelRequired>
+    <skills>
+      <li>
+        <skill>Shooting</skill>
+        <range>10~15</range>
+      </li>
+      <li>
+        <skill>Melee</skill>
+        <range>10~15</range>
+      </li>
+      <li>
+        <skill>Medicine</skill>
+        <range>10~15</range>
+      </li>
+    </skills>
+    <xenotypeSet>
+      <xenotypeChances>
+        <Neanderthal MayRequire="Ludeon.RimWorld.Biotech">0.2</Neanderthal>
+        <Hussar MayRequire="Ludeon.RimWorld.Biotech">0.2</Hussar>
+      </xenotypeChances>
+    </xenotypeSet>
+  </PawnKindDef>
+
+  <PawnKindDef ParentName="RS_SyndecateFighterBase">
+    <defName>RS_Syndicate_Fighter_NukeJugger</defName>
+    <label>nuke operative juggernaut</label>
+    <canBeSapper>true</canBeSapper>
+    <isGoodBreacher>true</isGoodBreacher>
+    <combatPower>400</combatPower>
+    <weaponTags>
+      <li>RS_SyndicateWeaponRangeJugger</li>
+    </weaponTags>
+    <apparelMoney>8000~11000</apparelMoney>
+    <apparelRequired>
+      <li>Apparel_SyndicateJuggerHelmet</li>
+      <li>Apparel_SyndicateJuggerHardsuit</li>
+    </apparelRequired>
+    <skills>
+      <li>
+        <skill>Shooting</skill>
+        <range>8~12</range>
+      </li>
+      <li>
+        <skill>Melee</skill>
+        <range>8~12</range>
+      </li>
+      <li>
+        <skill>Medicine</skill>
+        <range>5~6</range>
+      </li>
+    </skills>
+    <xenotypeSet>
+      <xenotypeChances>
+        <Neanderthal MayRequire="Ludeon.RimWorld.Biotech">0.2</Neanderthal>
+        <Hussar MayRequire="Ludeon.RimWorld.Biotech">0.2</Hussar>
+      </xenotypeChances>
+    </xenotypeSet>
+  </PawnKindDef>
+
+</Defs>

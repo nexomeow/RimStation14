@@ -1,0 +1,9 @@
+C:\Steam\steamapps\common\RimWorld\Mods\RimStation14\Source\bin\Debug\RimStation14.dll
+C:\Steam\steamapps\common\RimWorld\Mods\RimStation14\Source\bin\Debug\RimStation14.pdb
+C:\Steam\steamapps\common\RimWorld\Mods\RimStation14\Source\obj\Debug\RimStation14.csproj.AssemblyReference.cache
+C:\Steam\steamapps\common\RimWorld\Mods\RimStation14\Source\obj\Debug\RimStation14.GeneratedMSBuildEditorConfig.editorconfig
+C:\Steam\steamapps\common\RimWorld\Mods\RimStation14\Source\obj\Debug\RimStation14.AssemblyInfoInputs.cache
+C:\Steam\steamapps\common\RimWorld\Mods\RimStation14\Source\obj\Debug\RimStation14.AssemblyInfo.cs
+C:\Steam\steamapps\common\RimWorld\Mods\RimStation14\Source\obj\Debug\RimStation14.csproj.CoreCompileInputs.cache
+C:\Steam\steamapps\common\RimWorld\Mods\RimStation14\Source\obj\Debug\RimStation14.dll
+C:\Steam\steamapps\common\RimWorld\Mods\RimStation14\Source\obj\Debug\RimStation14.pdb

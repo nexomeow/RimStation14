@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ResearchProjectDef>
+    <defName>RS_AdvancedHardsuits</defName>
+    <label>Advanced hardsuits</label>
+    <description>Advanced hardsuits</description>
+    <tab>RS_Syndicate</tab> 
+    <baseCost>4000</baseCost>
+    <techLevel>Spacer</techLevel>
+    <researchViewX>3</researchViewX>
+    <researchViewY>1</researchViewY>
+    <prerequisites>
+      <li>RS_NukeOpsBasics</li>
+    </prerequisites>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>RS_JuggerHardsuit</defName>
+    <label>Cybersan's heavy armor</label>
+    <description>Cybersan's latest development in armor technology: the Cybersan Industries Juggernaut suit!</description>
+    <tab>RS_Syndicate</tab> 
+    <baseCost>8200</baseCost>
+    <techLevel>Spacer</techLevel>
+    <researchViewX>4</researchViewX>
+    <researchViewY>1</researchViewY>
+    <prerequisites>
+      <li>RS_AdvancedHardsuits</li>
+    </prerequisites>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>RS_NukiesWeapons</defName>
+    <label>Operative's arsenal</label>
+    <description>Exclusive nukies weapons.</description>
+    <tab>RS_Syndicate</tab> 
+    <baseCost>3300</baseCost>
+    <techLevel>Spacer</techLevel>
+    <researchViewX>3</researchViewX>
+    <researchViewY>2</researchViewY>
+    <prerequisites>
+      <li>RS_NukeOpsBasics</li>
+    </prerequisites>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>RS_EnergyWeapons</defName>
+    <label>Energy weapons</label>
+    <description>Powerful energy blades.</description>
+    <tab>RS_Syndicate</tab> 
+    <baseCost>5000</baseCost>
+    <techLevel>Spacer</techLevel>
+    <researchViewX>3.5</researchViewX>
+    <researchViewY>3</researchViewY>
+    <prerequisites>
+      <li>RS_NukiesWeapons</li>
+    </prerequisites>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>RS_LSaw</defName>
+    <label>L6 Saw</label>
+    <description>A heavy machine gun. The calling card of any self-respecting juggernaut.</description>
+    <tab>RS_Syndicate</tab> 
+    <baseCost>4500</baseCost>
+    <techLevel>Spacer</techLevel>
+    <researchViewX>4</researchViewX>
+    <researchViewY>2</researchViewY>
+    <prerequisites>
+      <li>RS_NukiesWeapons</li>
+    </prerequisites>
+  </ResearchProjectDef>
+
+</Defs>

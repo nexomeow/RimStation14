@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- Category: Implants -->
+  <RimStation.BlackMarketShop.BlackMarketListing>
+    <defName>RS_BlackMarketList_BionicEye</defName>
+    <listingName>Незаконный глазной киберимплант</listingName>
+    <previewDefName>RS_RedspaceCubeSpecial</previewDefName>
+    <itemDefNames>
+      <li>RS_RedspaceCubeSpecial</li>
+    </itemDefNames>
+    <price>30</price>
+    <count>1</count>
+    <category>Implants</category>
+  </RimStation.BlackMarketShop.BlackMarketListing>
+
+</Defs>

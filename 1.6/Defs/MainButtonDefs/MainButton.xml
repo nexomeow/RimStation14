@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <MainButtonDef>
+    <defName>RS_OpenBlackMarket</defName>
+    <label>Uplink</label>
+    <description>Opens syndicate uplink. You cant buy anything here until you research blackmarket basics.</description>
+    <workerClass>RimStation.BlackMarketShop.MainButtonWorker_ToggleShopWindow</workerClass>
+    <order>90</order> 
+    <validWithoutMap>false</validWithoutMap> 
+  </MainButtonDef>
+</Defs>

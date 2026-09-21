@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ResearchTabDef>
+    <defName>RS_Syndicate</defName>
+    <label>syndicate</label>
+    <generalTitle>Syndicate black market</generalTitle>
+    <generalDescription>Provides access to syndicate blackmarket items and gears fabrication.</generalDescription>
+  </ResearchTabDef>
+
+</Defs>

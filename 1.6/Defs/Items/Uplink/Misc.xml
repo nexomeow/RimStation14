@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- Category: Misc -->
+  <RimStation.BlackMarketShop.BlackMarketListing>
+    <defName>RS_BlackMarketList_GlitterWorldMedicine</defName>
+    <listingName>Контрабандный медицинский кейс</listingName>
+    <previewDefName>RS_RedspaceCubeSpecial</previewDefName>
+    <itemDefNames>
+      <li>RS_RedspaceCubeSpecial</li>
+    </itemDefNames>
+    <price>4</price> <!-- ТВОЕ НОВОЕ ПОЛЕ -->
+    <count>5</count>
+    <category>Misc</category>
+  </RimStation.BlackMarketShop.BlackMarketListing>
+
+</Defs>

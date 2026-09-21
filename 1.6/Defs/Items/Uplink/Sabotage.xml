@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- Category: Sabotage -->
+  <RimStation.BlackMarketShop.BlackMarketListing>
+    <defName>RS_BlackMarketList_BiocodeUnlocker</defName>
+    <listingName>Biocode unlockers pack</listingName>
+    <listingDesc>A set of specialized devices for hacking biocoded items. Contains three unlockers. Note that a successful hack is not guaranteed.</listingDesc>
+    <previewDefName>RS_BiocodeUnlocker</previewDefName>
+    <itemDefNames>
+      <li>RS_BiocodeUnlocker</li>
+      <li>RS_BiocodeUnlocker</li>
+      <li>RS_BiocodeUnlocker</li>
+    </itemDefNames>
+    <price>25</price>
+    <category>Sabotage</category>
+  </RimStation.BlackMarketShop.BlackMarketListing>
+</Defs>

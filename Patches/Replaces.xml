@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+<!-- we have special syndie workbnech for this -->
+<!-- crafting -->
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Apparel_Blood-RedHelmet"]/recipeMaker/recipeUsers</xpath>
+    <value>
+      <recipeUsers Inherit="False">
+        <li>RS_SyndicateFabricationBench</li>
+      </recipeUsers>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Apparel_Blood-RedHardsuit"]/recipeMaker/recipeUsers</xpath>
+    <value>
+      <recipeUsers Inherit="False">
+        <li>RS_SyndicateFabricationBench</li>
+      </recipeUsers>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Apparel_SyndicateMedicHelmet"]/recipeMaker/recipeUsers</xpath>
+    <value>
+      <recipeUsers Inherit="False">
+        <li>RS_SyndicateFabricationBench</li>
+      </recipeUsers>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Apparel_SyndicateMedicHardsuit"]/recipeMaker/recipeUsers</xpath>
+    <value>
+      <recipeUsers Inherit="False">
+        <li>RS_SyndicateFabricationBench</li>
+      </recipeUsers>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Apparel_SyndicateEliteHelmet"]/recipeMaker/recipeUsers</xpath>
+    <value>
+      <recipeUsers Inherit="False">
+        <li>RS_SyndicateFabricationBench</li>
+      </recipeUsers>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Apparel_SyndicateEliteHardsuit"]/recipeMaker/recipeUsers</xpath>
+    <value>
+      <recipeUsers Inherit="False">
+        <li>RS_SyndicateFabricationBench</li>
+      </recipeUsers>
+    </value>
+  </Operation>
+
+<!-- research -->
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Apparel_Blood-RedHelmet"]/recipeMaker/researchPrerequisite</xpath>
+    <value>
+      <researchPrerequisite>RS_NukeOpsBasics</researchPrerequisite>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Apparel_Blood-RedHardsuit"]/recipeMaker/researchPrerequisite</xpath>
+    <value>
+      <researchPrerequisite>RS_NukeOpsBasics</researchPrerequisite>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Apparel_SyndicateMedicHelmet"]/recipeMaker/researchPrerequisite</xpath>
+    <value>
+      <researchPrerequisite>RS_AdvancedHardsuits</researchPrerequisite>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Apparel_SyndicateMedicHardsuit"]/recipeMaker/researchPrerequisite</xpath>
+    <value>
+      <researchPrerequisite>RS_AdvancedHardsuits</researchPrerequisite>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Apparel_SyndicateEliteHelmet"]/recipeMaker/researchPrerequisite</xpath>
+    <value>
+      <researchPrerequisite>RS_AdvancedHardsuits</researchPrerequisite>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Apparel_SyndicateEliteHardsuit"]/recipeMaker/researchPrerequisite</xpath>
+    <value>
+      <researchPrerequisite>RS_AdvancedHardsuits</researchPrerequisite>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[defName="Apparel_Blood-RedHelmet"]/tradeTags</xpath>
+    <match Class="PatchOperationAdd"><xpath>Defs/ThingDef[defName="Apparel_Blood-RedHelmet"]/tradeTags</xpath><value><li>RS_SyndicateGear</li></value></match>
+    <nomatch Class="PatchOperationAdd"><xpath>Defs/ThingDef[defName="Apparel_Blood-RedHelmet"]</xpath><value><tradeTags><li>RS_SyndicateGear</li></tradeTags></value></nomatch>
+  </Operation>
+
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[defName="Apparel_Blood-RedHelmet"]/apparel/tags</xpath>
+    <match Class="PatchOperationAdd"><xpath>Defs/ThingDef[defName="Apparel_Blood-RedHelmet"]/apparel/tags</xpath><value><li>RS_SyndicateGear</li></value></match>
+    <nomatch Class="PatchOperationAdd"><xpath>Defs/ThingDef[defName="Apparel_Blood-RedHelmet"]/apparel</xpath><value><tags><li>RS_SyndicateGear</li></tags></value></nomatch>
+  </Operation>
+
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[defName="Apparel_Blood-RedHelmet"]/apparel/defaultOutfitTags</xpath>
+    <match Class="PatchOperationAdd"><xpath>Defs/ThingDef[defName="Apparel_Blood-RedHelmet"]/apparel/defaultOutfitTags</xpath><value><li>RS_SyndicateGear</li></value></match>
+    <nomatch Class="PatchOperationAdd"><xpath>Defs/ThingDef[defName="Apparel_Blood-RedHelmet"]/apparel</xpath><value><defaultOutfitTags><li>RS_SyndicateGear</li></defaultOutfitTags></value></nomatch>
+  </Operation>
+
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[defName="Apparel_Blood-RedHardsuit"]/tradeTags</xpath>
+    <match Class="PatchOperationAdd"><xpath>Defs/ThingDef[defName="Apparel_Blood-RedHardsuit"]/tradeTags</xpath><value><li>RS_SyndicateGear</li></value></match>
+    <nomatch Class="PatchOperationAdd"><xpath>Defs/ThingDef[defName="Apparel_Blood-RedHardsuit"]</xpath><value><tradeTags><li>RS_SyndicateGear</li></tradeTags></value></nomatch>
+  </Operation>
+
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[defName="Apparel_Blood-RedHardsuit"]/apparel/tags</xpath>
+    <match Class="PatchOperationAdd"><xpath>Defs/ThingDef[defName="Apparel_Blood-RedHardsuit"]/apparel/tags</xpath><value><li>RS_SyndicateGear</li></value></match>
+    <nomatch Class="PatchOperationAdd"><xpath>Defs/ThingDef[defName="Apparel_Blood-RedHardsuit"]/apparel</xpath><value><tags><li>RS_SyndicateGear</li></tags></value></nomatch>
+  </Operation>
+
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[defName="Apparel_Blood-RedHardsuit"]/apparel/defaultOutfitTags</xpath>
+    <match Class="PatchOperationAdd"><xpath>Defs/ThingDef[defName="Apparel_Blood-RedHardsuit"]/apparel/defaultOutfitTags</xpath><value><li>RS_SyndicateGear</li></value></match>
+    <nomatch Class="PatchOperationAdd"><xpath>Defs/ThingDef[defName="Apparel_Blood-RedHardsuit"]/apparel</xpath><value><defaultOutfitTags><li>RS_SyndicateGear</li></defaultOutfitTags></value></nomatch>
+  </Operation>
+
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[defName="Apparel_SyndicateMedicHelmet"]/tradeTags</xpath>
+    <match Class="PatchOperationAdd"><xpath>Defs/ThingDef[defName="Apparel_SyndicateMedicHelmet"]/tradeTags</xpath><value><li>RS_SyndicateGear</li></value></match>
+    <nomatch Class="PatchOperationAdd"><xpath>Defs/ThingDef[defName="Apparel_SyndicateMedicHelmet"]</xpath><value><tradeTags><li>RS_SyndicateGear</li></tradeTags></value></nomatch>
+  </Operation>
+
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[defName="Apparel_SyndicateMedicHelmet"]/apparel/tags</xpath>
+    <match Class="PatchOperationAdd"><xpath>Defs/ThingDef[defName="Apparel_SyndicateMedicHelmet"]/apparel/tags</xpath><value><li>RS_SyndicateGear</li></value></match>
+    <nomatch Class="PatchOperationAdd"><xpath>Defs/ThingDef[defName="Apparel_SyndicateMedicHelmet"]/apparel</xpath><value><tags><li>RS_SyndicateGear</li></tags></value></nomatch>
+  </Operation>
+
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[defName="Apparel_SyndicateMedicHelmet"]/apparel/defaultOutfitTags</xpath>
+    <match Class="PatchOperationAdd"><xpath>Defs/ThingDef[defName="Apparel_SyndicateMedicHelmet"]/apparel/defaultOutfitTags</xpath><value><li>RS_SyndicateGear</li></value></match>
+    <nomatch Class="PatchOperationAdd"><xpath>Defs/ThingDef[defName="Apparel_SyndicateMedicHelmet"]/apparel</xpath><value><defaultOutfitTags><li>RS_SyndicateGear</li></defaultOutfitTags></value></nomatch>
+  </Operation>
+
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[defName="Apparel_SyndicateMedicHardsuit"]/tradeTags</xpath>
+    <match Class="PatchOperationAdd"><xpath>Defs/ThingDef[defName="Apparel_SyndicateMedicHardsuit"]/tradeTags</xpath><value><li>RS_SyndicateGear</li></value></match>
+    <nomatch Class="PatchOperationAdd"><xpath>Defs/ThingDef[defName="Apparel_SyndicateMedicHardsuit"]</xpath><value><tradeTags><li>RS_SyndicateGear</li></tradeTags></value></nomatch>
+  </Operation>
+
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[defName="Apparel_SyndicateMedicHardsuit"]/apparel/tags</xpath>
+    <match Class="PatchOperationAdd"><xpath>Defs/ThingDef[defName="Apparel_SyndicateMedicHardsuit"]/apparel/tags</xpath><value><li>RS_SyndicateGear</li></value></match>
+    <nomatch Class="PatchOperationAdd"><xpath>Defs/ThingDef[defName="Apparel_SyndicateMedicHardsuit"]/apparel</xpath><value><tags><li>RS_SyndicateGear</li></tags></value></nomatch>
+  </Operation>
+
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[defName="Apparel_SyndicateMedicHardsuit"]/apparel/defaultOutfitTags</xpath>
+    <match Class="PatchOperationAdd"><xpath>Defs/ThingDef[defName="Apparel_SyndicateMedicHardsuit"]/apparel/defaultOutfitTags</xpath><value><li>RS_SyndicateGear</li></value></match>
+    <nomatch Class="PatchOperationAdd"><xpath>Defs/ThingDef[defName="Apparel_SyndicateMedicHardsuit"]/apparel</xpath><value><defaultOutfitTags><li>RS_SyndicateGear</li></defaultOutfitTags></value></nomatch>
+  </Operation>
+
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[defName="Apparel_SyndicateEliteHelmet"]/tradeTags</xpath>
+    <match Class="PatchOperationAdd"><xpath>Defs/ThingDef[defName="Apparel_SyndicateEliteHelmet"]/tradeTags</xpath><value><li>RS_SyndicateGear</li></value></match>
+    <nomatch Class="PatchOperationAdd"><xpath>Defs/ThingDef[defName="Apparel_SyndicateEliteHelmet"]</xpath><value><tradeTags><li>RS_SyndicateGear</li></tradeTags></value></nomatch>
+  </Operation>
+
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[defName="Apparel_SyndicateEliteHelmet"]/apparel/tags</xpath>
+    <match Class="PatchOperationAdd"><xpath>Defs/ThingDef[defName="Apparel_SyndicateEliteHelmet"]/apparel/tags</xpath><value><li>RS_SyndicateGear</li></value></match>
+    <nomatch Class="PatchOperationAdd"><xpath>Defs/ThingDef[defName="Apparel_SyndicateEliteHelmet"]/apparel</xpath><value><tags><li>RS_SyndicateGear</li></tags></value></nomatch>
+  </Operation>
+
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[defName="Apparel_SyndicateEliteHelmet"]/apparel/defaultOutfitTags</xpath>
+    <match Class="PatchOperationAdd"><xpath>Defs/ThingDef[defName="Apparel_SyndicateEliteHelmet"]/apparel/defaultOutfitTags</xpath><value><li>RS_SyndicateGear</li></value></match>
+    <nomatch Class="PatchOperationAdd"><xpath>Defs/ThingDef[defName="Apparel_SyndicateEliteHelmet"]/apparel</xpath><value><defaultOutfitTags><li>RS_SyndicateGear</li></defaultOutfitTags></value></nomatch>
+  </Operation>
+
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[defName="Apparel_SyndicateEliteHardsuit"]/tradeTags</xpath>
+    <match Class="PatchOperationAdd"><xpath>Defs/ThingDef[defName="Apparel_SyndicateEliteHardsuit"]/tradeTags</xpath><value><li>RS_SyndicateGear</li></value></match>
+    <nomatch Class="PatchOperationAdd"><xpath>Defs/ThingDef[defName="Apparel_SyndicateEliteHardsuit"]</xpath><value><tradeTags><li>RS_SyndicateGear</li></tradeTags></value></nomatch>
+  </Operation>
+
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[defName="Apparel_SyndicateEliteHardsuit"]/apparel/tags</xpath>
+    <match Class="PatchOperationAdd"><xpath>Defs/ThingDef[defName="Apparel_SyndicateEliteHardsuit"]/apparel/tags</xpath><value><li>RS_SyndicateGear</li></value></match>
+    <nomatch Class="PatchOperationAdd"><xpath>Defs/ThingDef[defName="Apparel_SyndicateEliteHardsuit"]/apparel</xpath><value><tags><li>RS_SyndicateGear</li></tags></value></nomatch>
+  </Operation>
+
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[defName="Apparel_SyndicateEliteHardsuit"]/apparel/defaultOutfitTags</xpath>
+    <match Class="PatchOperationAdd"><xpath>Defs/ThingDef[defName="Apparel_SyndicateEliteHardsuit"]/apparel/defaultOutfitTags</xpath><value><li>RS_SyndicateGear</li></value></match>
+    <nomatch Class="PatchOperationAdd"><xpath>Defs/ThingDef[defName="Apparel_SyndicateEliteHardsuit"]/apparel</xpath><value><defaultOutfitTags><li>RS_SyndicateGear</li></defaultOutfitTags></value></nomatch>
+  </Operation>
+
+</Patch>

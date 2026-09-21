@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+  <RS_Namer_SyndicateFactionName.rulePack.rulesStrings>
+    <li>r_name->Синдикат</li>
+  </RS_Namer_SyndicateFactionName.rulePack.rulesStrings>
+
+  <RS_SyndicateOperativeNameMaker.rulePack.rulesStrings>
+    <li>r_name->[prefix] [codename]</li>
+    <li>prefix->Агент</li>
+    <li>prefix->Оператор</li>
+    <li>codename->Альфа</li>
+    <li>codename->Браво</li>
+    <li>codename->Чарли</li>
+    <li>codename->Дельта</li>
+    <li>codename->Эхо</li>
+    <li>codename->Фокстрот</li>
+    <li>codename->Гольф</li>
+    <li>codename->Хотел</li>
+    <li>codename->Индия</li>
+    <li>codename->Джульетт</li>
+    <li>codename->Кило</li>
+    <li>codename->Лима</li>
+    <li>codename->Майк</li>
+    <li>codename->Новембер</li>
+    <li>codename->Оскар</li>
+    <li>codename->Папа</li>
+    <li>codename->Квебек</li>
+    <li>codename->Ромео</li>
+    <li>codename->Съерра</li>
+    <li>codename->Танго</li>
+    <li>codename->Юниформ</li>
+    <li>codename->Виктор</li>
+    <li>codename->Виски</li>
+    <li>codename->Иксрэй</li>
+    <li>codename->Янки</li>
+    <li>codename->Зулу</li>
+  </RS_SyndicateOperativeNameMaker.rulePack.rulesStrings>
+
+  <RS_SyndicateCommanderNameMaker.rulePack.rulesStrings>
+    <li>r_name->[prefix] [codename]</li>
+    <li>prefix->Командир</li>
+    <li>codename->Альфа</li>
+    <li>codename->Браво</li>
+    <li>codename->Чарли</li>
+    <li>codename->Дельта</li>
+    <li>codename->Эхо</li>
+    <li>codename->Фокстрот</li>
+    <li>codename->Гольф</li>
+    <li>codename->Хотел</li>
+    <li>codename->Индия</li>
+    <li>codename->Джульетт</li>
+    <li>codename->Кило</li>
+    <li>codename->Лима</li>
+    <li>codename->Майк</li>
+    <li>codename->Новембер</li>
+    <li>codename->Оскар</li>
+    <li>codename->Папа</li>
+    <li>codename->Квебек</li>
+    <li>codename->Ромео</li>
+    <li>codename->Съерра</li>
+    <li>codename->Танго</li>
+    <li>codename->Юниформ</li>
+    <li>codename->Виктор</li>
+    <li>codename->Виски</li>
+    <li>codename->Иксрэй</li>
+    <li>codename->Янки</li>
+    <li>codename->Зулу</li>
+  </RS_SyndicateCommanderNameMaker.rulePack.rulesStrings>
+
+</LanguageData>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+ <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="Apparel_Blood-RedHelmet"]/comps</xpath>
+    <value>
+      <li Class="RimStation.Unlocker.CompProperties_RS_BiocodeUnlockerImmune"/>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="Apparel_Blood-RedHardsuit"]/comps</xpath>
+    <value>
+      <li Class="RimStation.Unlocker.CompProperties_RS_BiocodeUnlockerImmune"/>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="Apparel_SyndicateMedicHelmet"]/comps</xpath>
+    <value>
+      <li Class="RimStation.Unlocker.CompProperties_RS_BiocodeUnlockerImmune"/>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="Apparel_SyndicateMedicHardsuit"]/comps</xpath>
+    <value>
+      <li Class="RimStation.Unlocker.CompProperties_RS_BiocodeUnlockerImmune"/>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="Apparel_SyndicateEliteHelmet"]/comps</xpath>
+    <value>
+      <li Class="RimStation.Unlocker.CompProperties_RS_BiocodeUnlockerImmune"/>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="Apparel_SyndicateEliteHardsuit"]/comps</xpath>
+    <value>
+      <li Class="RimStation.Unlocker.CompProperties_RS_BiocodeUnlockerImmune"/>
+    </value>
+  </Operation>
+
+</Patch>

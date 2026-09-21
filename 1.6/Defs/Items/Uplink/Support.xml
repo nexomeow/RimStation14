@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- Category: Support -->
+  <RimStation.BlackMarketShop.BlackMarketListing>
+    <defName>RS_BlackMarketList_IndustrialComponent</defName>
+    <listingName>Ящик с техническими деталями</listingName>
+    <previewDefName>RS_RedspaceCubeSpecial</previewDefName>
+    <itemDefNames>
+      <li>RS_RedspaceCubeSpecial</li>
+    </itemDefNames>
+    <price>8</price>
+    <category>Support</category>
+  </RimStation.BlackMarketShop.BlackMarketListing>
+
+</Defs>

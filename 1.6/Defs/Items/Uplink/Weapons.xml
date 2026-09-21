@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- Category: Weapons -->
+  <RimStation.BlackMarketShop.BlackMarketListing>
+    <defName>RS_BlackMarketList_ViperGun</defName>
+    <previewDefName>RS_Gun_Viper</previewDefName>
+    <listingDesc>Classic syndicate pistol. Cheap and good.</listingDesc>
+    <itemDefNames>
+      <li>RS_Gun_Viper</li>
+    </itemDefNames>
+    <price>4</price>
+    <category>Weapons</category>
+  </RimStation.BlackMarketShop.BlackMarketListing>
+
+  <RimStation.BlackMarketShop.BlackMarketListing>
+    <defName>RS_BlackMarketList_CobraGun</defName>
+    <previewDefName>RS_Gun_Cobra</previewDefName>
+    <listingDesc>Advanced silent pistol with good accuracy.</listingDesc>
+    <itemDefNames>
+      <li>RS_Gun_Cobra</li>
+    </itemDefNames>
+    <price>5</price>
+    <category>Weapons</category>
+  </RimStation.BlackMarketShop.BlackMarketListing>
+
+  <RimStation.BlackMarketShop.BlackMarketListing>
+    <defName>RS_BlackMarketList_EnergySword</defName>
+    <previewDefName>RS_MeleeWeapon_EnergySword</previewDefName>
+    <listingDesc>Good old energy blade. Slice them all.</listingDesc>
+    <itemDefNames>
+      <li>RS_MeleeWeapon_EnergySword</li>
+    </itemDefNames>
+    <price>12</price>
+    <category>Weapons</category>
+  </RimStation.BlackMarketShop.BlackMarketListing>
+
+  <RimStation.BlackMarketShop.BlackMarketListing>
+    <defName>RS_BlackMarketList_C20R</defName>
+    <previewDefName>RS_Gun_C20R</previewDefName>
+    <listingDesc>The notorious high-quality SMG.</listingDesc>
+    <itemDefNames>
+      <li>RS_Gun_C20R</li>
+    </itemDefNames>
+    <price>16</price>
+    <category>Weapons</category>
+  </RimStation.BlackMarketShop.BlackMarketListing>
+
+  <RimStation.BlackMarketShop.BlackMarketListing>
+    <defName>RS_BlackMarketList_AKMS</defName>
+    <previewDefName>RS_Gun_AKMS</previewDefName>
+    <listingDesc>The rifle of old wars.</listingDesc>
+    <itemDefNames>
+      <li>RS_Gun_AKMS</li>
+    </itemDefNames>
+    <price>19</price>
+    <category>Weapons</category>
+  </RimStation.BlackMarketShop.BlackMarketListing>
+
+  <RimStation.BlackMarketShop.BlackMarketListing>
+    <defName>RS_BlackMarketList_FireAxe</defName>
+    <previewDefName>RS_MeleeWeapon_FireAxe</previewDefName>
+    <listingDesc>An axe. Fire axe. Today is opposite day right?</listingDesc>
+    <itemDefNames>
+      <li>RS_MeleeWeapon_FireAxe</li>
+    </itemDefNames>
+    <price>23</price>
+    <category>Weapons</category>
+  </RimStation.BlackMarketShop.BlackMarketListing>
+
+  <RimStation.BlackMarketShop.BlackMarketListing>
+    <defName>RS_BlackMarketList_Estoc</defName>
+    <previewDefName>RS_Gun_Estoc</previewDefName>
+    <listingDesc>Advanced syndicate rifle which prefered by nuke ops.</listingDesc>
+    <itemDefNames>
+      <li>RS_Gun_Estoc</li>
+    </itemDefNames>
+    <price>25</price>
+    <category>Weapons</category>
+  </RimStation.BlackMarketShop.BlackMarketListing>
+
+  <RimStation.BlackMarketShop.BlackMarketListing>
+    <defName>RS_BlackMarketList_DoubleEnergySword</defName>
+    <previewDefName>RS_MeleeWeapon_DoubleEnergySword</previewDefName>
+    <listingDesc>Good old energy blade. Slice them all.</listingDesc>
+    <itemDefNames>
+      <li>RS_MeleeWeapon_DoubleEnergySword</li>
+    </itemDefNames>
+    <price>28</price>
+    <category>Weapons</category>
+  </RimStation.BlackMarketShop.BlackMarketListing>
+
+  <RimStation.BlackMarketShop.BlackMarketListing>
+    <defName>RS_BlackMarketList_l6saw</defName>
+    <previewDefName>RS_Gun_l6saw</previewDefName>
+    <listingDesc>Heavy machine gun. Calling card of any juggernaut. </listingDesc>
+    <itemDefNames>
+      <li>RS_Gun_l6saw</li>
+    </itemDefNames>
+    <price>30</price>
+    <category>Weapons</category>
+  </RimStation.BlackMarketShop.BlackMarketListing>
+
+  <RimStation.BlackMarketShop.BlackMarketListing>
+    <defName>RS_BlackMarketList_ChinaLake</defName>
+    <previewDefName>RS_Gun_ChinaLake</previewDefName>
+    <listingDesc>Good old three-shot grenade launcher.</listingDesc>
+    <itemDefNames>
+      <li>RS_Gun_ChinaLake</li>
+    </itemDefNames>
+    <price>34</price>
+    <category>Weapons</category>
+  </RimStation.BlackMarketShop.BlackMarketListing>
+
+</Defs>

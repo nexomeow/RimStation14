@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- <ResearchProjectDef>
+    <defName>RS_AgentsEquipment</defName>
+    <label>Agents equipment</label>
+    <description>Syndicate agents equipment and items. Just take your traitors items and backstab them all.</description>
+    <tab>RS_Syndicate</tab> 
+    <baseCost>2700</baseCost>
+    <techLevel>Spacer</techLevel>
+    <researchViewX>3</researchViewX>
+    <researchViewY>4</researchViewY>
+    <prerequisites>
+      <li>RS_AgentBasics</li>
+    </prerequisites>
+  </ResearchProjectDef> -->
+
+</Defs>

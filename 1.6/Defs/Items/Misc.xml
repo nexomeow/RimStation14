@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>  
+
+  <ThingDef Name="SyndieResourceBase" ParentName="ResourceBase" Abstract="True">
+    <soundInteract>Metal_Drop</soundInteract>
+    <soundDrop>Standard_Drop</soundDrop>
+    <stackLimit>120</stackLimit>
+    <healthAffectsPrice>false</healthAffectsPrice>
+    <graphicData>
+      <texPath>Items/RedCube</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+      <MarketValue>500</MarketValue>
+      <Mass>1</Mass>
+      <Flammability>0</Flammability>
+      <DeteriorationRate>2.0</DeteriorationRate>
+    </statBases>
+    <intricate>true</intricate>
+    <thingCategories>
+      <li>Manufactured</li>
+    </thingCategories>
+  </ThingDef>
+
+  <ThingDef ParentName="SyndieResourceBase">
+    <defName>RS_RedspaceCube</defName>
+    <label>redspace cube</label>
+    <description>Information holder, which can be used as money at the syndicate blackmarket.</description>
+    <stackLimit>120</stackLimit>
+    <healthAffectsPrice>true</healthAffectsPrice>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+      <MarketValue>1</MarketValue>
+      <Mass>1</Mass>
+      <DeteriorationRate>2.0</DeteriorationRate>
+    </statBases>
+  </ThingDef>
+
+  <!-- special cube -->
+
+  <ThingDef Name="SpecialSyndieResourceBase" ParentName="SyndieResourceBase" Abstract="True">
+    <stackLimit>1</stackLimit>
+    <isTechHediff>true</isTechHediff>
+  </ThingDef>
+
+  <ThingDef ParentName="SpecialSyndieResourceBase">
+    <defName>RS_RedspaceCubeSpecial</defName>
+    <label>unusual redspace cube</label>
+    <description>A cube pulsing with strange energy. Such cubes are used by a certain "syndicate" to store vast amounts of information.</description>
+    <statBases>
+      <Flammability>0</Flammability>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_CompAnalyzableUnlockResearch">
+        <analysisID>92349060</analysisID>
+
+        <analysisDurationHours>0.5</analysisDurationHours>
+        <destroyedOnAnalyzed>false</destroyedOnAnalyzed>
+        <completedLetterLabel>The redspace cube studied: {RESEARCH} unlocked</completedLetterLabel>
+        <completedLetter>By studying the redspace cube, {PAWN_labelShort} has acquired the insight needed for the research project(s) {RESEARCH}.\n\nYour researchers can now use research benches to begin researching how to actually use the technology.</completedLetter>
+        <completedLetterDef>PositiveEvent</completedLetterDef>
+
+        <activateTexPath>UI/Icons/Study</activateTexPath>
+
+        <activateLabelString>Analyze...</activateLabelString>
+        <activateDescString>Analyze the redspace cube.</activateDescString>
+        <jobString>Analyze redspace cube</jobString>
+        <guiLabelString>Choose who should analyze this</guiLabelString>
+        <inspectString>Can be analyzed by a colonist.</inspectString>
+
+        <targetingParameters>
+          <canTargetBuildings>false</canTargetBuildings>
+          <canTargetAnimals>false</canTargetAnimals>
+          <canTargetMechs>false</canTargetMechs>
+          <onlyTargetControlledPawns>true</onlyTargetControlledPawns>
+        </targetingParameters>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="SyndieResourceBase">
+    <defName>RS_BiocodeUnlocker</defName>
+    <label>biocode unlocker</label>
+    <description>A specialized illicit tool for removing a biocode. Be aware that removal is not guaranteed; if the attempt fails, the item will self-destruct.</description>
+    <graphicData>
+      <texPath>Items/Unlocker</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <stackLimit>5</stackLimit>
+    <statBases>
+      <Flammability>0</Flammability>
+    </statBases>
+    <comps>
+      <li Class="RimStation.Unlocker.CompProperties_RS_BiocodeUnlocker"/>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="SyndieResourceBase">
+    <defName>RS_SyndicateCallChip_LoneOps</defName>
+    <label>Syndie call chip</label>
+    <description>Support call chip.</description>
+    <graphicData>
+      <texPath>Items/Unlocker</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <stackLimit>5</stackLimit>
+    <statBases>
+      <Flammability>0</Flammability>
+    </statBases>
+    <comps>
+      <li Class="RimStation14.SupportCall.CompProperties_RS_SupportCallChip">
+        <pawnKinds>
+          <li>RS_Syndicate_Fighter_NukeOperative_Range</li>
+        </pawnKinds>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="SyndieResourceBase">
+    <defName>RS_SyndicateCallChip_Juggers</defName>
+    <label>Syndie call chip</label>
+    <description>Support call chip.</description>
+    <graphicData>
+      <texPath>Items/Unlocker</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <stackLimit>5</stackLimit>
+    <statBases>
+      <Flammability>0</Flammability>
+    </statBases>
+    <comps>
+      <li Class="RimStation14.SupportCall.CompProperties_RS_SupportCallChip">
+        <pawnKinds>
+          <li>RS_Syndicate_Fighter_NukeJugger</li>
+          <li>RS_Syndicate_Fighter_NukeJugger</li>
+          <li>RS_Syndicate_Fighter_NukeJugger</li>
+        </pawnKinds>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="SyndieResourceBase">
+    <defName>RS_SyndicateCallChip_NukeSquad</defName>
+    <label>Syndie call chip</label>
+    <description>Support call chip.</description>
+    <graphicData>
+      <texPath>Items/Unlocker</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <stackLimit>5</stackLimit>
+    <statBases>
+      <Flammability>0</Flammability>
+    </statBases>
+    <comps>
+      <li Class="RimStation14.SupportCall.CompProperties_RS_SupportCallChip">
+        <pawnKinds>
+          <li>RS_Syndicate_Fighter_NukeOperative_Melee</li>
+          <li>RS_Syndicate_Fighter_NukeOperative_Range</li>
+          <li>RS_Syndicate_Fighter_NukeMedic</li>
+          <li>RS_Syndicate_Fighter_NukeJugger</li>
+          <li>RS_Syndicate_Fighter_NukeElite</li>
+        </pawnKinds>
+      </li>
+    </comps>
+  </ThingDef>
+
+</Defs>

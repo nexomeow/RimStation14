@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ResearchProjectDef>
+    <defName>RS_BlackMarketBasics</defName>
+    <label>Black market basics</label>
+    <description>Provides access to syndicate basics tech.</description>
+    <tab>RS_Syndicate</tab> 
+    <baseCost>1500</baseCost>
+    <techLevel>Spacer</techLevel>
+    <researchViewX>0</researchViewX>
+    <researchViewY>2.5</researchViewY>
+    <discoveredLetterTitle>Syndicate black market network</discoveredLetterTitle>
+    <discoveredLetterText>"Congratulations on joining the black market. You now have access to the technology of our decentralized organization—dubbed 'The Syndicate' by the media. We look forward to your colony making productive use of our equipment and weaponry, and to your successful contribution to our trade network. Death to NT!".\n\n— Syndicate Liaison Officer</discoveredLetterText>
+    <prerequisites>
+      <li>MicroelectronicsBasics</li>
+    </prerequisites>
+    <requiredAnalyzed>
+      <li>RS_RedspaceCubeSpecial</li>
+    </requiredAnalyzed>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>RS_SyndieCrafting</defName>
+    <label>Black market fabrication</label>
+    <description>Syndie workbench which needs to make syndicate items and gears.</description>
+    <tab>RS_Syndicate</tab> 
+    <baseCost>6000</baseCost>
+    <techLevel>Spacer</techLevel>
+    <researchViewX>0</researchViewX>
+    <researchViewY>4</researchViewY>
+    <prerequisites>
+      <li>RS_BlackMarketBasics</li>
+    </prerequisites>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>RS_NukeOpsBasics</defName>
+    <label>Nuke operatives</label>
+    <description>Main nuke operative items which they use in missions...</description>
+    <tab>RS_Syndicate</tab> 
+    <baseCost>3000</baseCost>
+    <techLevel>Spacer</techLevel>
+    <researchViewX>2</researchViewX>
+    <researchViewY>1.5</researchViewY>
+    <prerequisites>
+      <li>RS_BlackMarketBasics</li>
+    </prerequisites>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>RS_General</defName>
+    <label>General</label>
+    <description>Base syndie items.</description>
+    <tab>RS_Syndicate</tab> 
+    <baseCost>2300</baseCost>
+    <techLevel>Spacer</techLevel>
+    <researchViewX>2</researchViewX>
+    <researchViewY>2.5</researchViewY>
+    <prerequisites>
+      <li>RS_BlackMarketBasics</li>
+    </prerequisites>
+  </ResearchProjectDef>
+
+  <!-- <ResearchProjectDef>
+    <defName>RS_AgentBasics</defName>
+    <label>Syndicate agents</label>
+    <description>Standart items which prefer to use syndicate agents.</description>
+    <tab>RS_Syndicate</tab> 
+    <baseCost>2300</baseCost>
+    <techLevel>Spacer</techLevel>
+    <researchViewX>2</researchViewX>
+    <researchViewY>3.5</researchViewY>
+    <prerequisites>
+      <li>RS_BlackMarketBasics</li>
+    </prerequisites>
+  </ResearchProjectDef> -->
+
+</Defs>

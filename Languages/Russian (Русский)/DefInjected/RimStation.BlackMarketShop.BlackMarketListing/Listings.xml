@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+  
+
+  <!-- Chemicals -->
+  <RS_BlackMarketList_GoJuice.listingName>Боевые стимуляторы</RS_BlackMarketList_GoJuice.listingName>
+  <RS_BlackMarketList_GoJuice.listingDesc>Армейский комплект стимуляторов Синдиката, содержащий 8 единиц Го-Сока.</RS_BlackMarketList_GoJuice.listingDesc>
+
+  <!-- Gear -->
+  <RS_BlackMarketList_Blood-RedGear.listingName>Штурмовой хардсьют</RS_BlackMarketList_Blood-RedGear.listingName>
+  <RS_BlackMarketList_Blood-RedGear.listingDesc>Визитная карточка мародёров Горлекса: мгновенно узнаваемый кроваво-красный скафандр. Костюм столь же зловещий, как и те, кто его носит.</RS_BlackMarketList_Blood-RedGear.listingDesc>
+
+  <RS_BlackMarketList_MedicGear.listingName>Медицинский хардсьют</RS_BlackMarketList_MedicGear.listingName>
+  <RS_BlackMarketList_MedicGear.listingDesc>Классический кроваво-красный скафандр мародёров Горлекса, модифицированный под нужды полевых медиков Синдиката.</RS_BlackMarketList_MedicGear.listingDesc>
+
+  <RS_BlackMarketList_EliteGear.listingName>Элитный хардсьют</RS_BlackMarketList_EliteGear.listingName>
+  <RS_BlackMarketList_EliteGear.listingDesc>Модифицированная версия штурмового скафандра для высшего командного состава. Выглядит особенно эффектно в комплекте с дальнобойной винтовкой «Эсток».</RS_BlackMarketList_EliteGear.listingDesc>
+
+  <RS_BlackMarketList_JuggerGear.listingName>Скафандр «Джаггернаут»</RS_BlackMarketList_JuggerGear.listingName>
+  <RS_BlackMarketList_JuggerGear.listingDesc>Сверхтяжёлый бронекостюм, способный выдержать даже самый яростный шквальный огонь. К сожалению, передвигаться в нём придётся крайне медленно.</RS_BlackMarketList_JuggerGear.listingDesc>
+
+  <!-- Implants -->
+  <RS_BlackMarketList_BionicEye.listingName>Глазной киберимплант</RS_BlackMarketList_BionicEye.listingName>
+  <RS_BlackMarketList_BionicEye.listingDesc>Нелегальный оптический протез Синдиката, значительно улучшающий координацию, восприятие и точность стрельбы носителя.</RS_BlackMarketList_BionicEye.listingDesc>
+
+  <!-- Misc -->
+  <RS_BlackMarketList_GlitterWorldMedicine.listingName>Медикаменты передовых миров</RS_BlackMarketList_GlitterWorldMedicine.listingName>
+  <RS_BlackMarketList_GlitterWorldMedicine.listingDesc>Контрабандный кейс с высокотехнологичными медицинскими препаратами Глиттерворлда в количестве 5 штук.</RS_BlackMarketList_GlitterWorldMedicine.listingDesc>
+
+  <!-- Resources -->
+  <RS_BlackMarketList_Plasteel.listingName>Партия пластали</RS_BlackMarketList_Plasteel.listingName>
+  <RS_BlackMarketList_Plasteel.listingDesc>Оптовая поставка лёгкого и сверхпрочного хай-тек материала, необходимого для сборки продвинутого снаряжения Синдиката.</RS_BlackMarketList_Plasteel.listingDesc>
+
+  <!-- Sabotage -->
+  <RS_BlackMarketList_BiocodeUnlocker.listingName>Комплект деблокаторов биокода</RS_BlackMarketList_BiocodeUnlocker.listingName>
+  <RS_BlackMarketList_BiocodeUnlocker.listingDesc>Набор специализированных хакерских устройств для взлома персонального кодирования оружия. Содержит три деблокатора. Помните, что кустарный обход защиты не гарантирует успех.</RS_BlackMarketList_BiocodeUnlocker.listingDesc>
+
+  <!-- Support -->
+  <RS_BlackMarketList_IndustrialComponent.listingName>Промышленные компоненты</RS_BlackMarketList_IndustrialComponent.listingName>
+  <RS_BlackMarketList_IndustrialComponent.listingDesc>Ящик с дефицитными техническими деталями и платами, используемыми при ремонте и производстве электроники.</RS_BlackMarketList_IndustrialComponent.listingDesc>
+
+  <!-- Trinkets -->
+  <RS_BlackMarketList_Gold.listingName>Контрабандное золото</RS_BlackMarketList_Gold.listingName>
+  <RS_BlackMarketList_Gold.listingDesc>Партия очищенных золотых слитков. Идеальный ресурс для тонкой электроники или подкупа нужных людей.</RS_BlackMarketList_Gold.listingDesc>
+
+  <!-- Weapons -->
+  <RS_BlackMarketList_ViperGun.listingName>Пистолет «Гадюка»</RS_BlackMarketList_ViperGun.listingName>
+  <RS_BlackMarketList_ViperGun.listingDesc>Классический пистолет Синдиката. Неприхотливый, дешёвый и отличный в эксплуатации.</RS_BlackMarketList_ViperGun.listingDesc>
+
+  <RS_BlackMarketList_CobraGun.listingName>Пистолет «Кобра»</RS_BlackMarketList_CobraGun.listingName>
+  <RS_BlackMarketList_CobraGun.listingDesc>Высокотехнологичный бесшумный пистолет с выдающимися показателями точности для скрытных ликвидаций.</RS_BlackMarketList_CobraGun.listingDesc>
+
+  <RS_BlackMarketList_EnergySword.listingName>Энергетический меч</RS_BlackMarketList_EnergySword.listingName>
+  <RS_BlackMarketList_EnergySword.listingDesc>Старый добрый плазменный клинок Синдиката. Кромсайте врагов на лоскуты.</RS_BlackMarketList_EnergySword.listingDesc>
+
+  <RS_BlackMarketList_C20R.listingName>Пистолет-пулемёт C-20r</RS_BlackMarketList_C20R.listingName>
+  <RS_BlackMarketList_C20R.listingDesc>Печально известный высококачественный пистолет-пулемёт с бешеной скорострельностью.</RS_BlackMarketList_C20R.listingDesc>
+
+  <RS_BlackMarketList_AKMS.listingName>Автомат АКМС</RS_BlackMarketList_AKMS.listingName>
+  <RS_BlackMarketList_AKMS.listingDesc>Надёжная и убойная штурмовая винтовка времён древних войн.</RS_BlackMarketList_AKMS.listingDesc>
+
+  <RS_BlackMarketList_FireAxe.listingName>Пожарный топор Синдиката</RS_BlackMarketList_FireAxe.listingName>
+  <RS_BlackMarketList_FireAxe.listingDesc>Пожарный топор с интегрированной системой термического воспламенения. Инструмент спасения, ставший смертоносным оружием.</RS_BlackMarketList_FireAxe.listingDesc>
+
+  <RS_BlackMarketList_Estoc.listingName>Винтовка «Эсток»</RS_BlackMarketList_Estoc.listingName>
+  <RS_BlackMarketList_Estoc.listingDesc>Продвинутая дальнобойная винтовка, пользующаяся особым уважением среди ядерных оперативников.</RS_BlackMarketList_Estoc.listingDesc>
+
+  <RS_BlackMarketList_DoubleEnergySword.listingName>Двухклинковый энергетический меч</RS_BlackMarketList_DoubleEnergySword.listingName>
+  <RS_BlackMarketList_DoubleEnergySword.listingDesc>Модифицированное плазменное оружие с двумя клинками. Позволяет наносить удары с невероятной скоростью.</RS_BlackMarketList_DoubleEnergySword.listingDesc>
+
+  <RS_BlackMarketList_l6saw.listingName>Пулемёт L6-Saw</RS_BlackMarketList_l6saw.listingName>
+  <RS_BlackMarketList_l6saw.listingDesc>Тяжёлый пулемёт крупного калибра. Неотъемлемый аргумент и визитная карточка штурмовых джаггернаутов.</RS_BlackMarketList_l6saw.listingDesc>
+
+  <RS_BlackMarketList_ChinaLake.listingName>Гранатомёт «Чайна-Лейк»</RS_BlackMarketList_ChinaLake.listingName>
+  <RS_BlackMarketList_ChinaLake.listingDesc>Старый добрый трёхзарядный помповый гранатомёт для зачистки укреплённых позиций.</RS_BlackMarketList_ChinaLake.listingDesc>
+
+
+</LanguageData>

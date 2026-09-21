@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- Category: Gear -->
+  <RimStation.BlackMarketShop.BlackMarketListing>
+    <defName>RS_BlackMarketList_Blood-RedGear</defName>
+    <listingName>Blood-red hardsuit</listingName>
+    <listingDesc>The calling card of the Gorlex marauders: the instantly recognizable blood-red spacesuit—a suit as infamous as those who wear it.</listingDesc>
+    <previewDefName>Apparel_Blood-RedHardsuit</previewDefName>
+    <itemDefNames>
+      <li>Apparel_Blood-RedHelmet</li>
+      <li>Apparel_Blood-RedHardsuit</li>
+    </itemDefNames>
+    <price>25</price>
+    <category>Gear</category>
+  </RimStation.BlackMarketShop.BlackMarketListing>
+
+  <RimStation.BlackMarketShop.BlackMarketListing>
+    <defName>RS_BlackMarketList_MedicGear</defName>
+    <listingName>Medic hardsuit</listingName>
+    <listingDesc>The calling card of the Gorlex marauders, but medic version: the instantly recognizable blood-red spacesuit—a suit as infamous as those who wear it.</listingDesc>
+    <previewDefName>Apparel_SyndicateMedicHardsuit</previewDefName>
+    <itemDefNames>
+      <li>Apparel_SyndicateMedicHelmet</li>
+      <li>Apparel_SyndicateMedicHardsuit</li>
+    </itemDefNames>
+    <price>23</price>
+    <category>Gear</category>
+  </RimStation.BlackMarketShop.BlackMarketListing>
+
+  <RimStation.BlackMarketShop.BlackMarketListing>
+    <defName>RS_BlackMarketList_EliteGear</defName>
+    <listingName>Elite hardsuit</listingName>
+    <listingDesc>An elite version of the blood-red hardsuit. It looks especially cool with the Estoc rifle.</listingDesc>
+    <previewDefName>Apparel_SyndicateEliteHardsuit</previewDefName>
+    <itemDefNames>
+      <li>Apparel_SyndicateEliteHelmet</li>
+      <li>Apparel_SyndicateEliteHardsuit</li>
+    </itemDefNames>
+    <price>28</price>
+    <category>Gear</category>
+  </RimStation.BlackMarketShop.BlackMarketListing>
+
+  <RimStation.BlackMarketShop.BlackMarketListing>
+    <defName>RS_BlackMarketList_JuggerGear</defName>
+    <listingName>Juggernaut hardsuit</listingName>
+    <listingDesc>An ultra-heavily armored suit capable of withstanding even the most ferocious barrage. Unfortunately, you will move very slowly while wearing it.</listingDesc>
+    <previewDefName>Apparel_SyndicateJuggerHardsuit</previewDefName>
+    <itemDefNames>
+      <li>Apparel_SyndicateJuggerHelmet</li>
+      <li>Apparel_SyndicateJuggerHardsuit</li>
+    </itemDefNames>
+    <price>39</price>
+    <category>Gear</category>
+  </RimStation.BlackMarketShop.BlackMarketListing>
+
+</Defs>

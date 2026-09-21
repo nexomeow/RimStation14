@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <packageId>nexomeow.RimStation14</packageId>
+  <name>RimStation 14</name>
+  <author>nexomeow</author>
+  <supportedVersions>
+      <li>1.6</li>
+  </supportedVersions>
+  <description>
+  This mod is inspired by the legendary "Space Station" game series, drawing references from both *SS13* and *SS14*.
+
+  Meet the faction known in the media as "The Syndicate." Embark on a life of crime: deploy saboteurs and agents, or cause massive explosions as a Nuclear Operative.
+
+  P.S. The mod is in the early stages of development and currently focuses on the Syndicate.
+  </description>
+  <modDependencies>
+    <li>
+      <packageId>Xenon.ss14onrim</packageId>
+      <displayName>Space Station 14 on a rim</displayName>
+      <steamWorkshopUrl>steam://url/CommunityFilePage/3568177493</steamWorkshopUrl> 
+    </li>
+    <li>
+      <packageId>SS13.Armor</packageId>
+      <displayName>SS13 Armor</displayName>
+      <steamWorkshopUrl>steam://url/CommunityFilePage/3545712668</steamWorkshopUrl>
+    </li>
+  </modDependencies>
+   <loadAfter>
+      <li>Ludeon.RimWorld</li>
+   </loadAfter>
+</ModMetaData>

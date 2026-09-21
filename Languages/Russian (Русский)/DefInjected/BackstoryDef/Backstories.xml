@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+  
+  <RS_SyndicateUnknown0.title>неизвестно</RS_SyndicateUnknown0.title>
+  <RS_SyndicateUnknown0.titleShort>неизвестно</RS_SyndicateUnknown0.titleShort>
+  <RS_SyndicateUnknown0.description>О прошлом [PAWN_nameDef] в синдикате ничего не известно.</RS_SyndicateUnknown0.description>
+
+  <RS_SyndicateAgent1.title>агент синдиката</RS_SyndicateAgent1.title>
+  <RS_SyndicateAgent1.titleShort>агент</RS_SyndicateAgent1.titleShort>
+  <RS_SyndicateAgent1.description>[PAWN_nameDef] агент синдиката.</RS_SyndicateAgent1.description>
+
+  <RS_NukeOperative2.title>ядерный оперативник</RS_NukeOperative2.title>
+  <RS_NukeOperative2.titleShort>оператор</RS_NukeOperative2.titleShort>
+  <RS_NukeOperative2.description>[PAWN_nameDef] ядерный оперативник.</RS_NukeOperative2.description>
+
+</LanguageData>

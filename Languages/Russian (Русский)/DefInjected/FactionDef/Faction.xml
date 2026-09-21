@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+  <RS_SyndicateFaction.label>Влиятельная криминальная организация</RS_SyndicateFaction.label>
+  <RS_SyndicateFaction.description>Влиятельная, но разрозненная преступная организация известная во всей галактике под именем "Синдикат". Это децентрализованное образование состоящие из сотен офшорных компаний изначально было сформированно для подавления монополии корпорации квази-государства NanoTrasen, однако впоследствии её цели значительно расширились.</RS_SyndicateFaction.description>
+  <RS_SyndicateFaction.pawnsSingular>представитель синдиката</RS_SyndicateFaction.pawnsSingular>
+  <RS_SyndicateFaction.pawnsPlural>представители синдиката</RS_SyndicateFaction.pawnsPlural>
+  <RS_SyndicateFaction.leaderTitle>офицер связи</RS_SyndicateFaction.leaderTitle>
+
+</LanguageData>

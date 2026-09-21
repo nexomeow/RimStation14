@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+
+  <RS_SyndicateMiningFarm.label>майнинг-ферма редспейс-кубов</RS_SyndicateMiningFarm.label>
+  <RS_SyndicateMiningFarm.description>Вычислительный комплекс, позволяющий медленно и с огромным потреблением энергии синтезировать редспейс-кубы, которые впоследствии можно использовать для торговли на чёрном рынке Синдиката.</RS_SyndicateMiningFarm.description>
+
+  <RS_SyndicateFabricateBench.label>верстак Синдиката</RS_SyndicateFabricateBench.label>
+  <RS_SyndicateFabricateBench.description>Специализированное рабочее место, оснащённое продвинутым инструментарием и хакерским софтом для нелегального производства оружия, брони и технологий Синдиката.</RS_SyndicateFabricateBench.description>
+
+  <RS_RedspaceCube.label>редспейс куб</RS_RedspaceCube.label>
+  <RS_RedspaceCube.description>Высокотехнологичный носитель зашифрованных данных, повсеместно используемый в качестве теневой валюты на чёрном рынке Синдиката.</RS_RedspaceCube.description>
+
+  <RS_RedspaceCubeSpecial.label>необычный редспейсы куб</RS_RedspaceCubeSpecial.label>
+  <RS_RedspaceCubeSpecial.description>Необычный информационный накопитель, пульсирующий загадочной тёмной энергией. Из-за колоссальной ёмкости такие кубы используются агентурой Синдиката для хранения квантовых массивов данных и сверхсекретных чертежей.</RS_RedspaceCubeSpecial.description>
+
+  <RS_BiocodeUnlocker.label>взломщик биокодов</RS_BiocodeUnlocker.label>
+  <RS_BiocodeUnlocker.description>Специализированный хакерский инструмент Синдиката, предназначенный для принудительного удаления биокодирования с предметов. Учтите, что кустарный обход защиты не даёт стопроцентной гарантии: в случае критической ошибки подсистемы оружия запустят протокол самоликвидации, полностью уничтожив предмет.</RS_BiocodeUnlocker.description>
+
+  <RS_SyndicateCallChip_LoneOps.label>крипто-чип тактического вызова</RS_SyndicateCallChip_LoneOps.label>
+  <RS_SyndicateCallChip_LoneOps.description>Зашифрованный одноразовый модуль квантовой связи Синдиката. Позволяет вызвать союзный отряд ядерных оперативников.</RS_SyndicateCallChip_LoneOps.description>
+
+  <RS_SyndicateCallChip_Juggers.label>крипто-чип тактического вызова</RS_SyndicateCallChip_Juggers.label>
+  <RS_SyndicateCallChip_Juggers.description>Зашифрованный одноразовый модуль квантовой связи Синдиката. Позволяет вызвать союзный отряд ядерных оперативников.</RS_SyndicateCallChip_Juggers.description>
+
+  <RS_SyndicateCallChip_NukeSquad.label>крипто-чип тактического вызова</RS_SyndicateCallChip_NukeSquad.label>
+  <RS_SyndicateCallChip_NukeSquad.description>Зашифрованный одноразовый модуль квантовой связи Синдиката. Позволяет вызвать союзный отряд ядерных оперативников.</RS_SyndicateCallChip_NukeSquad.description>
+
+  <Apparel_Blood-RedHelmet.label>Кроваво-красный шлем</Apparel_Blood-RedHelmet.label>
+  <Apparel_Blood-RedHelmet.description>Бронированный шлем скафандра. Собственность мародеров Горлекса.</Apparel_Blood-RedHelmet.description>
+  
+  <Apparel_Blood-RedHardsuit.label>Кроваво-красный скафандр</Apparel_Blood-RedHardsuit.label>
+  <Apparel_Blood-RedHardsuit.description>Бронированный скафандр. Собственность мародеров Горлекса.</Apparel_Blood-RedHardsuit.description>
+
+  <Apparel_SyndicateMedicHelmet.label>Шлем скафандра медика</Apparel_SyndicateMedicHelmet.label>
+  <Apparel_SyndicateMedicHelmet.description>Бронированный шлем скафандра медика синдиката. Собственность мародеров Горлекса.</Apparel_SyndicateMedicHelmet.description>
+
+  <Apparel_SyndicateMedicHardsuit.label>Скафандр медика</Apparel_SyndicateMedicHardsuit.label>
+  <Apparel_SyndicateMedicHardsuit.description>Скафандр медика синдиката. Собственность мародеров Горлекса.</Apparel_SyndicateMedicHardsuit.description>
+
+  <Apparel_SyndicateEliteHelmet.label>Шлем элитного скафандра</Apparel_SyndicateEliteHelmet.label>
+  <Apparel_SyndicateEliteHelmet.description>Бронированный шлем элитного скафандра синдиката. Собственность мародеров Горлекса.</Apparel_SyndicateEliteHelmet.description>
+
+  <Apparel_SyndicateEliteHardsuit.label>Элитный скафандр</Apparel_SyndicateEliteHardsuit.label>
+  <Apparel_SyndicateEliteHardsuit.description>Элитный скафандр синдиката. Собственность мародеров Горлекса.</Apparel_SyndicateEliteHardsuit.description>
+
+  <Apparel_SyndicateJuggerHelmet.label>Шлем джаггернаута киберсан</Apparel_SyndicateJuggerHelmet.label>
+  <Apparel_SyndicateJuggerHelmet.description>Сверхбронированный шлем скафандра синдиката. Собственность Киберсан Индастриез.</Apparel_SyndicateJuggerHelmet.description>
+
+  <Apparel_SyndicateJuggerHardsuit.label>Скафандр джаггернаута киберсан</Apparel_SyndicateJuggerHardsuit.label>
+  <Apparel_SyndicateJuggerHardsuit.description>Сверхбронированный скафандр синдиката. Собственность Киберсан Индастриез.</Apparel_SyndicateJuggerHardsuit.description>
+
+  <RS_MeleeWeapon_EnergySword.label>Энергетический меч</RS_MeleeWeapon_EnergySword.label>
+  <RS_MeleeWeapon_EnergySword.description>Настоящее плазменное лезвие, изначально разработанное корпорацией NanoTrasen. Впоследствии технология была украдена Синдикатом. С тех пор она настолько широко распространилась по Центральным мирам, что фактически считается общим достоянием, хотя из-за высокой стоимости такое оружие по-прежнему встречается редко.</RS_MeleeWeapon_EnergySword.description>
+  <RS_MeleeWeapon_EnergySword.tools>
+    <li>остриё</li>
+    <li>лезвие</li>
+  </RS_MeleeWeapon_EnergySword.tools>
+
+  <RS_MeleeWeapon_DoubleEnergySword.label>Двойной энергетический меч</RS_MeleeWeapon_DoubleEnergySword.label>
+  <RS_MeleeWeapon_DoubleEnergySword.description>Настоящее плазменное лезвие. Двухклинковая версия, с которой ещё сложнее обращаться. Из-за сложности владения спаренным оружием его удары чуть менее смертоносны, однако при правильной технике этот клинок может наносить удары значительно быстрее любого другого оружия ближнего боя.</RS_MeleeWeapon_DoubleEnergySword.description>
+  <RS_MeleeWeapon_DoubleEnergySword.tools>
+    <li>остриё</li>
+    <li>лезвие</li>
+  </RS_MeleeWeapon_DoubleEnergySword.tools>
+
+  <RS_MeleeWeapon_FireAxe.label>Подозрительный пожарный топор</RS_MeleeWeapon_FireAxe.label>
+  <RS_MeleeWeapon_FireAxe.description>Какой-то гений однажды подумал: «Хм, почему бы нам не взять обычный пожарный топор, не покрасить его в крутые цвета и не встроить сверхдорогую технологию воспламенения?» И вот, теперь у нас есть этот топор.</RS_MeleeWeapon_FireAxe.description>
+  <RS_MeleeWeapon_FireAxe.tools>
+    <li>рукоять</li>
+    <li>лезвие</li>
+  </RS_MeleeWeapon_FireAxe.tools>
+
+  <RS_Gun_Viper.label>Гадюка</RS_Gun_Viper.label>
+  <RS_Gun_Viper.description>Классический пистолет Синдиката. Он дешёвый, надёжный и довольно доступный в производстве. Мало чем отличается от стандартного автоматического пистолета, за исключением показателей точности.</RS_Gun_Viper.description>
+  <RS_Gun_Viper.tools>
+    <li>рукоять</li>
+    <li>ствол</li>
+  </RS_Gun_Viper.tools>
+
+  <RS_Gun_Cobra.label>Кобра</RS_Gun_Cobra.label>
+  <RS_Gun_Cobra.description>Улучшенная версия «Гадюки». Стреляет тихо и может похвастаться беспрецедентной для пистолета точностью.</RS_Gun_Cobra.description>
+  <RS_Gun_Cobra.tools>
+    <li>рукоять</li>
+    <li>ствол</li>
+  </RS_Gun_Cobra.tools>
+
+  <RS_Gun_C20R.label>C-20r</RS_Gun_C20R.label>
+  <RS_Gun_C20R.description>Удобный и скорострельный пистолет-пулемёт Синдиката. Хотя на самом деле это оружие не является эксклюзивным для ядерных оперативников, оно прочно ассоциируется именно с ними.</RS_Gun_C20R.description>
+  <RS_Gun_C20R.tools>
+    <li>рукоять</li>
+    <li>ствол</li>
+  </RS_Gun_C20R.tools>
+
+  <RS_Gun_AKMS.label>АКМС старых войн</RS_Gun_AKMS.label>
+  <RS_Gun_AKMS.description>Оружие старых войн. Этой технологии тысячи лет, но она продолжает эффективно выполнять свою работу. Вечный мир в вечной войне.</RS_Gun_AKMS.description>
+  <RS_Gun_AKMS.tools>
+    <li>приклад</li>
+    <li>ствол</li>
+  </RS_Gun_AKMS.tools>
+
+  <RS_Gun_Estoc.label>Эсток</RS_Gun_Estoc.label>
+  <RS_Gun_Estoc.description>Продвинутая дальнобойная винтовка, используемая Мародёрами Горлекса. Прицеливание занимает довольно много времени, но она бьёт очень больно на больших дистанциях.</RS_Gun_Estoc.description>
+  <RS_Gun_Estoc.tools>
+    <li>приклад</li>
+    <li>ствол</li>
+  </RS_Gun_Estoc.tools>
+
+  <RS_Gun_l6saw.label>L6-Saw</RS_Gun_l6saw.label>
+  <RS_Gun_l6saw.description>Классический тяжёлый пулемёт. Конечно, у него нет такой же скорострельности, как у минигана, но — поверьте — благодаря более крупному калибру и характеристикам, которые практически не отстают, эта штука бьёт РЕАЛЬНО больно.</RS_Gun_l6saw.description>
+  <RS_Gun_l6saw.tools>
+    <li>ствол</li>
+  </RS_Gun_l6saw.tools>
+
+  <RS_Gun_ChinaLake.label>China-Lake</RS_Gun_ChinaLake.label>
+  <RS_Gun_ChinaLake.description>Старый добрый трёхзарядный гранатомёт, используемый печально известными ядерными оперативниками.</RS_Gun_ChinaLake.description>
+  <RS_Gun_ChinaLake.tools>
+    <li>приклад</li>
+    <li>ствол</li>
+  </RS_Gun_ChinaLake.tools>
+
+</LanguageData>

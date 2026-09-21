@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "TWGOEhP7DfE=",
+  "success": true,
+  "projectFilePath": "C:\\Steam\\steamapps\\common\\RimWorld\\Mods\\RimStation14\\Source\\RimStation14.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Asus\\.nuget\\packages\\microsoft.netframework.referenceassemblies\\1.0.3\\microsoft.netframework.referenceassemblies.1.0.3.nupkg.sha512",
+    "C:\\Users\\Asus\\.nuget\\packages\\microsoft.netframework.referenceassemblies.net472\\1.0.3\\microsoft.netframework.referenceassemblies.net472.1.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

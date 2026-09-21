@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <RS_BlackMarketBasics.label>Основы чёрного рынка</RS_BlackMarketBasics.label>
+  <RS_BlackMarketBasics.description>Шифрование каналов связи и взлом защищённых частот для получения базовых чертежей Синдиката.</RS_BlackMarketBasics.description>
+  <RS_BlackMarketBasics.discoveredLetterTitle>Сеть чёрного рынка Синдиката</RS_BlackMarketBasics.discoveredLetterTitle>
+  <RS_BlackMarketBasics.discoveredLetterText>«Поздравляем с подключением к чёрному рынку. Теперь у вас есть доступ к технологиям нашей децентрализованной организации, которую в СМИ окрестили „Синдикатом“. Мы надеемся, что ваша колония найдёт продуктивное применение нашему оборудованию и вооружению, а также внесёт свой успешный вклад в нашу торговую сеть. Смерть НаноТрейзен!».\n\n— Офицер связи Синдиката</RS_BlackMarketBasics.discoveredLetterText>
+
+  <RS_SyndieCrafting.label>Производство чёрного рынка</RS_SyndieCrafting.label>
+  <RS_SyndieCrafting.description>Сборка специализированного подпольного верстака, способного обходить корпоративные цифровые подписи и собирать нелегальное снаряжение.</RS_SyndieCrafting.description>
+
+  <RS_NukeOpsBasics.label>Ядерные оперативники</RS_NukeOpsBasics.label>
+  <RS_NukeOpsBasics.description>Изучение базовой экипировки и штурмового снаряжения, используемого ударными отрядами Синдиката при проведении спецопераций.</RS_NukeOpsBasics.description>
+
+  <RS_General.label>Общие припасы</RS_General.label>
+  <RS_General.description>Чертежи широкого спектра стандартного оборудования и утилитарных предметов Синдиката.</RS_General.description>
+
+  <!-- <RS_AgentBasics.label>Агенты Синдиката</RS_AgentBasics.label>
+  <RS_AgentBasics.description>Спецификации базового шпионского инвентаря, адаптированного под скрытное проникновение и саботаж.</RS_AgentBasics.description>
+
+  <RS_AgentsEquipment.label>Экипировка агентов</RS_AgentsEquipment.label>
+  <RS_AgentsEquipment.description>Продвинутый арсенал для скрытных ликвидаций. Идеальное снаряжение, чтобы втереться в доверие, нанести сокрушительный удар в спину и скрыться незамеченным.</RS_AgentsEquipment.description>
+  -->
+  <RS_AdvancedWeapons.label>Продвинутый арсенал</RS_AdvancedWeapons.label>
+  <RS_AdvancedWeapons.description>Высокотехнологичные модификации огнестрельного оружия и прототипы тяжелого вооружения Синдиката.</RS_AdvancedWeapons.description>
+
+  <RS_MiningFarms.label>Майнинг-ферма редспейса</RS_MiningFarms.label>
+  <RS_MiningFarms.description>Развертывание вычислительных мощностей и крипто-кластеров для синтеза аномальных кубов редспейса из чистой энергии.</RS_MiningFarms.description>
+
+  <RS_AdvancedHardsuits.label>Продвинутые скафандры</RS_AdvancedHardsuits.label>
+  <RS_AdvancedHardsuits.description>Глубокая модернизация герметичных боевых экзокостюмов (хардсьютов) для максимальной защиты в экстремальных условиях.</RS_AdvancedHardsuits.description>
+
+  <RS_JuggerHardsuit.label>Тяжёлая броня Киберсан</RS_JuggerHardsuit.label>
+  <RS_JuggerHardsuit.description>Вершина инженерной мысли Cybersan Industries: штурмовой комплекс класса «Джаггернаут», превращающий носителя в ходячий танк.</RS_JuggerHardsuit.description>
+
+  <RS_NukiesWeapons.label>Арсенал оперативников</RS_NukiesWeapons.label>
+  <RS_NukiesWeapons.description>Производство эксклюзивных образцов крупнокалиберного и скорострельного оружия для подавления превосходящих сил врага.</RS_NukiesWeapons.description>
+
+  <RS_EnergyWeapons.label>Энергетическое оружие</RS_EnergyWeapons.label>
+  <RS_EnergyWeapons.description>Технологии стабилизации плазменных полей, необходимые для ковки разрушительных энергетических клинков ближнего боя.</RS_EnergyWeapons.description>
+
+  <RS_LSaw.label>L6 Saw</RS_LSaw.label>
+  <RS_LSaw.description>Производство легендарного ручного пулемета L6 Saw — ультимативного аргумента в затяжных огневых контактах и визитной карточки тяжелых штурмовиков.</RS_LSaw.description>
+
+</LanguageData>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <RulePackDef>
+    <defName>RS_Namer_SyndicateFactionName</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>r_name->Syndicate</li> 
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+
+  <RulePackDef>
+    <defName>RS_SyndicateOperativeNameMaker</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>r_name->[prefix] [codename]</li>
+
+        <li>prefix->Agent</li>
+        <li>prefix->Operator</li>
+
+        <li>codename->Alpha</li>
+        <li>codename->Bravo</li>
+        <li>codename->Charlie</li>
+        <li>codename->Delta</li>
+        <li>codename->Echo</li>
+        <li>codename->Foxtrot</li>
+        <li>codename->Golf</li>
+        <li>codename->Hotel</li>
+        <li>codename->India</li>
+        <li>codename->Juliett</li>
+        <li>codename->Kilo</li>
+        <li>codename->Lima</li>
+        <li>codename->Mike</li>
+        <li>codename->November</li>
+        <li>codename->Oscar</li>
+        <li>codename->Papa</li>
+        <li>codename->Quebec</li>
+        <li>codename->Romeo</li>
+        <li>codename->Sierra</li>
+        <li>codename->Tango</li>
+        <li>codename->Uniform</li>
+        <li>codename->Victor</li>
+        <li>codename->Whiskey</li>
+        <li>codename->Xray</li>
+        <li>codename->Yankee</li>
+        <li>codename->Zulu</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+
+  <RulePackDef>
+    <defName>RS_SyndicateCommanderNameMaker</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>r_name->[prefix] [codename]</li>
+
+        <li>prefix->Commander</li>
+
+        <li>codename->Alpha</li>
+        <li>codename->Bravo</li>
+        <li>codename->Charlie</li>
+        <li>codename->Delta</li>
+        <li>codename->Echo</li>
+        <li>codename->Foxtrot</li>
+        <li>codename->Golf</li>
+        <li>codename->Hotel</li>
+        <li>codename->India</li>
+        <li>codename->Juliett</li>
+        <li>codename->Kilo</li>
+        <li>codename->Lima</li>
+        <li>codename->Mike</li>
+        <li>codename->November</li>
+        <li>codename->Oscar</li>
+        <li>codename->Papa</li>
+        <li>codename->Quebec</li>
+        <li>codename->Romeo</li>
+        <li>codename->Sierra</li>
+        <li>codename->Tango</li>
+        <li>codename->Uniform</li>
+        <li>codename->Victor</li>
+        <li>codename->Whiskey</li>
+        <li>codename->Xray</li>
+        <li>codename->Yankee</li>
+        <li>codename->Zulu</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+
+</Defs>

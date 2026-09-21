@@ -1,0 +1,1 @@
+Before code something place it in your RimWorld mod foler. csproj already has path to compile dll files after building in /Assemblies.

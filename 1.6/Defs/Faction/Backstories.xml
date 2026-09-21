@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <BackstoryDef>
+    <defName>RS_SyndicateUnknown0</defName>
+    <title>unknown</title>
+    <titleShort>agent</titleShort>
+    <description>[PAWN_nameDef] origin in syndicate before is unknown.</description>
+    <slot>Childhood</slot>
+    <spawnCategories>
+      <li>RS_SyndiecateFighter</li>
+    </spawnCategories>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>RS_SyndicateAgent1</defName>
+    <title>syndicate agent</title>
+    <titleShort>agent</titleShort>
+    <description>[PAWN_nameDef] is syndicate agent.</description>
+    <slot>Adulthood</slot>
+    <workDisables>
+      <li>ManualDumb</li>
+    </workDisables>
+    <skillGains>
+      <Shooting>5</Shooting>
+      <Melee>5</Melee>
+      <Medicine>4</Medicine>
+    </skillGains>
+    <spawnCategories>
+      <li>RS_SyndiecateTraitor</li>
+    </spawnCategories>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>RS_NukeOperative2</defName>
+    <title>nuke operative</title>
+    <titleShort>operator</titleShort>
+    <description>[PAWN_nameDef] is nuke operative.</description>
+    <slot>Adulthood</slot>
+    <workDisables>
+      <li>ManualDumb</li>
+    </workDisables>
+    <skillGains>
+      <Shooting>5</Shooting>
+      <Melee>5</Melee>
+      <Medicine>4</Medicine>
+    </skillGains>
+    <spawnCategories>
+      <li>RS_SyndiecateFighter</li>
+    </spawnCategories>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+  </BackstoryDef>
+
+</Defs>

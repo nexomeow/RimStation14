@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- Category: Trinkets -->
+  <RimStation.BlackMarketShop.BlackMarketListing>
+    <defName>RS_BlackMarketList_Gold</defName>
+    <listingName>Контрабандные золотые слитки</listingName>
+    <previewDefName>RS_RedspaceCubeSpecial</previewDefName>
+    <itemDefNames>
+      <li>RS_RedspaceCubeSpecial</li>
+    </itemDefNames>
+    <price>10</price>
+    <category>Trinkets</category>
+  </RimStation.BlackMarketShop.BlackMarketListing>
+
+</Defs>

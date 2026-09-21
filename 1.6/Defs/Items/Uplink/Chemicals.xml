@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- Category: Chemicals -->
+  <RimStation.BlackMarketShop.BlackMarketListing>
+    <defName>RS_BlackMarketList_GoJuice</defName>
+    <listingName>Combat stimulants</listingName>
+    <listingDesc>A Syndicate combat drug kit consisting of 8 units of Go-Juice.</listingDesc>
+    <previewDefName>GoJuice</previewDefName>
+    <itemDefNames>
+      <li>GoJuice</li>
+      <li>GoJuice</li>
+      <li>GoJuice</li>
+      <li>GoJuice</li>
+      <li>GoJuice</li>
+      <li>GoJuice</li>
+      <li>GoJuice</li>
+      <li>GoJuice</li>
+    </itemDefNames>
+    <price>12</price>
+    <category>Chemicals</category>
+  </RimStation.BlackMarketShop.BlackMarketListing>
+
+</Defs>
